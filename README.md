@@ -11,5 +11,5 @@ También permite dar de alta el estadio que sea, con su ubicación y capacidad m
 De esta manera, el usuario podra crear su dream team sin restricción alguna
 
 # Consideraciones
-Este es un programa realizado en c++ mediante visual studio code.
+Este es un programa realizado en c++ mediante Visual Studio code.
 Compilar con: "g++ Jugador.h Estadio.h Club.h proyecto.cpp"
