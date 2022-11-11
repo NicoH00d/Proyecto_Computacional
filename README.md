@@ -5,7 +5,9 @@ Este programa esta diseñado para el tiempo de ocio de aquellos aficionados por 
 
 # Funcionalidad
 Creacion del club: Nombre, país, nombre del creador (es importante el reconocimiento), y el metodo de juego (alineacion).
+
 El programa perimtira dar de alta el jugador estrella deseado con sus caracteristicas: Nombre, posicion, pais, y atributos de modo de juego.
+
 También permite dar de alta el estadio que sea, con su ubicación y capacidad maxima.
 
 De esta manera, el usuario podra crear su dream team sin restricción alguna
