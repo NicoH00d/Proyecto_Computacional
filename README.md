@@ -20,7 +20,9 @@ Este es un programa realizado en c++ mediante Visual Studio code.
 Compilar con: "g++ Jugador.h Estadio.h Club.h proyecto.cpp"
 
 # Actualizaciones
+
 17/11/2022
+
 -Creación del diagrama UML del codigo.
 
 -Se creo una nueva clase madre llamada Ultimate.
