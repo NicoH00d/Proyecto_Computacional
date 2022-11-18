@@ -18,3 +18,5 @@ También permite dar de alta el estadio que sea, con su ubicación y capacidad m
 Este es un programa realizado en c++ mediante Visual Studio code.
 
 Compilar con: "g++ Jugador.h Estadio.h Club.h proyecto.cpp"
+
+#Actualizaciones
