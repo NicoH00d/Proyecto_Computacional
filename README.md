@@ -22,5 +22,7 @@ Compilar con: "g++ Jugador.h Estadio.h Club.h proyecto.cpp"
 # Actualizaciones
 17/11/2022
 -Creación del diagrama UML del codigo.
+
 -Se creo una nueva clase madre llamada Ultimate.
+
 -Para crear la nueva clase se modifico la clase "Club", eliminando atributos de nombreclub y nombrecreador, y añadiendo el atributo de presupuesto.
