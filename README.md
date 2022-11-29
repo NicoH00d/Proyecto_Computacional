@@ -28,3 +28,15 @@ Compilar con: "g++ Jugador.h Estadio.h Club.h proyecto.cpp"
 -Se creo una nueva clase madre llamada Ultimate.
 
 -Para crear la nueva clase se modifico la clase "Club", eliminando atributos de nombreclub y nombrecreador, y añadiendo el atributo de presupuesto.
+
+28/11/2022
+
+-Se actualizo el diagrama UML conforme a los respectivos cambios:
+
+-Se crearon 3 clases nuevas: Delantero, Mediocampista y Defensa, para establecer la clase Jugador como clase madre de las tres.
+
+-Implementación de herencia en codigo de la clase jugador a las clases nuevas: Delantero, Mediocampsita, Defensa.
+
+-Implementación de composición en codigo de la claase Jugador, a la clase Club mediante el uso de vectores conforme a la cantidad de jugadores.
+
+-Se eliminaron atibutos de la clase Jugador: Media, Tiro, Regate, Fuerza.
