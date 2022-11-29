@@ -4,33 +4,45 @@ using namespace std;
 #include "Jugador.h"
 #include "Estadio.h"
 #include "Club.h"
+#include "Ultimate.h"
+#include "Delantero.h"
+#include "Mediocampista.h"
+#include "Defensa.h"
  
 int main(){
+    string nombre_jugador;
 
-    Jugador messi;
-    messi.setNombre("Leonel Messi");
-    messi.setPosicion("delantero");
-    messi.setPais("Argentina");
-    messi.setMedia(93);
-    messi.setTiro(90);
-    messi.setRegate(95);
-    messi.setFuerza(70);
+    Ultimate equipo;
 
-    messi.imprimedatos();
+    equipo.setNombredelclub("Benito FC");
+    equipo.setNombrecreador("Nico");
+    equipo.imprimedatos();
     cout<<"--------------------------------"<<endl;
-//-------------------------------------------------//
+
+//jugadores
+    Delantero neymar("Neymar","delantero","Brazil","Uber Eats",99);
+    Mediocampista kimmich("Joshua Kimmich","Medio campo","Alemania","Bundesliga",99);
+    Defensa marquez("Rafa Marquez","defensa","México","Leyenda",99);
+
+
+//estadio
     Estadio edefault;
     edefault.imprimedatos();
-    //return 0;
+    
     cout<<"--------------------------------"<<endl;
-//-------------------------------------------------//
+//club
     Club miclub;
 
-    miclub.setNombrec("HOOD'S FC");
-    miclub.setNombrecreador("Nico");
+
     miclub.setPaiss("Mexico");
     miclub.setAlineacion("4 4 2");
 
     miclub.imprimedatos();
+
+    miclub.agregarJugador(&neymar);
+    miclub.agregarJugador(&kimmich);
+    miclub.agregarJugador(&marquez);
+    cout<<"Jugadores actuales: "<<endl;
+    miclub.imprimemas();
     return 0;
 }

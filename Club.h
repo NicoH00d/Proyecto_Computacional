@@ -1,18 +1,25 @@
 #include<string>
+#include<vector>
+#ifndef CLUB_H
+#define CLUB_H
 
 class Club{
     private:
-        //string nombrec;
-        //string nombrecreador;
+        vector<Jugador*> jugadores;
         string paiss;
         string alineacion;
         int presupuesto;
     public:
+
         //constructor
         Club(){
             paiss="Inglaterra";
             alineacion="4 3 3";
             presupuesto=0;
+        }
+        //---jugadores---//
+        vector<Jugador*>getJugadores(){
+            return jugadores;
         }
         //getters       
         string getPaiss(){
@@ -39,6 +46,15 @@ class Club{
             cout<<"--DATOS DEL CLUB--"<<endl;
             cout<<"Pais: "<< paiss <<endl;
             cout<<"Alineación preferida: "<< alineacion <<endl;
-            cout<<"Presupuesto: "<<presupuesto<<endl;
-        } 
+            cout<<"Presupuesto: "<<presupuesto<<endl;  
+        }
+        void agregarJugador(Jugador* juga){
+            jugadores.push_back(juga);
+        }         
+        void imprimemas(){
+            for(int i=0; i<jugadores.size();i++){
+                jugadores[i]->imprimemas();
+            }
+        }
 };
+#endif

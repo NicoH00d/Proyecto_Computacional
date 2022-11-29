@@ -10,7 +10,7 @@ class Estadio{
         Estadio(){
         nombree="Cancha Fut";
         lugar="Inglaterra";
-        capacidad=1000;
+        capacidad=10000;
         }
         //getters
         string getNombree(){
