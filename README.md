@@ -17,7 +17,7 @@ También permite dar de alta el estadio que sea, con su ubicación y capacidad m
 # Consideraciones
 Este es un programa realizado en c++ mediante Visual Studio code.
 
-Compilar con: "g++ Jugador.h Estadio.h Club.h proyecto.cpp"
+Compilar con: "g++ Jugador.h Estadio.h Club.h Ultimate.h Defensa.h Mediocampista.h Delantero.h proyecto.cpp"
 
 # Actualizaciones
 
@@ -40,3 +40,7 @@ Compilar con: "g++ Jugador.h Estadio.h Club.h proyecto.cpp"
 -Implementación de composición en codigo de la claase Jugador, a la clase Club mediante el uso de vectores conforme a la cantidad de jugadores.
 
 -Se eliminaron atibutos de la clase Jugador: Media, Tiro, Regate, Fuerza.
+
+# Correcciones
+
+No se realizaron correcciones
